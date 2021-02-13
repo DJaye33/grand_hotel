@@ -334,20 +334,6 @@ body {
   margin-bottom: 3rem;
 }
 
-.small-underline {
-  width: 9rem;
-  height: 0.1rem;
-  margin: 0 auto 1rem auto;
-  background-color: #b85d1c;
-}
-
-.big-underline {
-  width: 20rem;
-  height: 0.1rem;
-  background-color: #b85d1c;
-  margin-bottom: 3rem;
-}
-
 .sub-heading {
   font-size: 3.5rem;
   font-weight: 300;
@@ -418,3 +404,122 @@ body {
 }
 
 /* End About Us */
+
+/* Common Header */
+
+.common-header {
+  padding: 5rem;
+  text-align: center;
+  color: #b85d1c;
+}
+
+.common-heading {
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  margin-bottom: 3rem;
+}
+
+.small-underline {
+  width: 9rem;
+  height: 0.1rem;
+  margin: 0 auto 1rem auto;
+  background-color: #b85d1c;
+}
+
+.big-underline {
+  width: 20rem;
+  height: 0.1rem;
+  margin: auto;
+  background-color: #b85d1c;
+  margin-bottom: 3rem;
+}
+
+/* End Common Header */
+
+/* Rooms */
+
+.rooms {
+  margin-left: 8rem;
+}
+
+.rooms-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.room-card {
+  width: 60rem;
+  margin: 5rem;
+  background-color: #15141b;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.3);
+}
+
+.room-card img {
+  width: 100%;
+}
+
+.room-card-content {
+  color: #ddd;
+  padding: 2rem;
+}
+
+.room-card-heading {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+.room-card-paragraph {
+  font-size: 1.5rem;
+  color: #777;
+}
+
+.room-price {
+  font-size: 5rem;
+  font-weight: 300;
+  text-align: right;
+}
+
+.room-card-btn {
+  width: 15rem;
+  padding: 1.5rem 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: 1.2rem;
+  text-transform: uppercase;
+  background-color: transparent;
+  border-radius: 10rem;
+  color: #b85d1c;
+  border: 0.1rem solid #b85d1c;
+  outline: transparent;
+  cursor: pointer;
+}
+
+.room-card-btn:hover .btn-arrow {
+  margin-left: 1.5rem;
+}
+
+.rooms-btn-wrapper {
+  text-align: center;
+}
+
+.rooms-btn {
+  width: 20rem;
+  padding: 1.5rem;
+  margin: 4rem 0;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #b85d1c;
+  border: 0.2rem solid #b85d1c;
+  outline: transparent;
+  cursor: pointer;
+  box-shadow: 0 1.5rem 6rem rgba(0, 0, 0, 0.2);
+  transition: all 0.2s;
+}
+
+.rooms-btn:hover {
+  color: #ddd;
+  background-color: #b85d1c;
+}
+/* End Rooms */
