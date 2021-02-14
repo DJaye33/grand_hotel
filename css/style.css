@@ -638,6 +638,13 @@ body {
   background-color: #b85d1c;
   color: #ddd;
   border: none;
+  cursor: pointer;
+}
+
+#error {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: tomato;
 }
 
 .gallery {
